@@ -1,0 +1,16 @@
+{
+  "project": "Weighted Survey Counts",
+  "executed_utc": "2026-11-21T10:14:13.690511+00:00",
+  "source": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/HairEyeColor.csv",
+  "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/datasets/HairEyeColor.html",
+  "sha256": "c371b0bb7955bad62da375330e626a5dcc7709ca7ec6ee08fb9e58ae4287ec94",
+  "raw_rows": 32,
+  "analysis_rows": 32,
+  "excluded_rows": 0,
+  "exact_duplicate_rows": 0,
+  "duplicates_policy": "Retained; duplicate values do not necessarily mean duplicate entities.",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8"
+}

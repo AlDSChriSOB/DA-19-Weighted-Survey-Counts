@@ -1,0 +1,14 @@
+{
+  "id": 19,
+  "title": "Weighted Survey Counts",
+  "question": "How are recorded respondents distributed by eye colour?",
+  "x": "Eye",
+  "y": "Freq",
+  "mode": "sum",
+  "caveat": "Rows are contingency-table cells; use frequency weights, never row counts as respondent counts.",
+  "action": "Retain weights when cross-tabulating hair colour and sex.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/HairEyeColor.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/datasets/HairEyeColor.html",
+  "metric_label": "sum of Freq",
+  "method": "Sum recorded Freq within each Eye category; the row grain is an aggregated cell."
+}

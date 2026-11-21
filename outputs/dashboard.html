@@ -1,0 +1,41 @@
+<html><head><meta charset="utf-8"><title>Weighted Survey Counts</title><style>body{font:17px system-ui;max-width:1100px;margin:40px auto;padding:20px;color:#182d41}img{max-width:100%}td,th{padding:8px;border-bottom:1px solid #ddd}</style></head><body><h1>Weighted Survey Counts</h1><p>How are recorded respondents distributed by eye colour?</p><p>The largest observed sum of Freq is 220.000 for Brown. This ranking is descriptive, not a recommendation.</p><img src="main_chart.png"><h2>SQL evidence</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>segment</th>
+      <th>rows_used</th>
+      <th>metric</th>
+      <th>minimum</th>
+      <th>maximum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Blue</td>
+      <td>8</td>
+      <td>215</td>
+      <td>7</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>Brown</td>
+      <td>8</td>
+      <td>220</td>
+      <td>3</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>Green</td>
+      <td>8</td>
+      <td>64</td>
+      <td>2</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Hazel</td>
+      <td>8</td>
+      <td>93</td>
+      <td>5</td>
+      <td>29</td>
+    </tr>
+  </tbody>
+</table><h2>Limitations</h2><p>Rows are contingency-table cells; use frequency weights, never row counts as respondent counts.</p><h2>Next action</h2><p>Retain weights when cross-tabulating hair colour and sex.</p></body></html>
